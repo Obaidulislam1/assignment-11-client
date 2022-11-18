@@ -4,71 +4,71 @@
         "name": "Kale",
         "picture": "https://media.istockphoto.com/id/544313316/photo/young-cabbage-in-the-garden-on-a-path.jpg?s=612x612&w=0&k=20&c=h2uLXtNxvo3PAmHCZFfqPiAJRxwpMAzpMbsSLTVwEuU=",
         "price": "2.5",
-        "weight": "3kg",
-        "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+        "weight": "3",
+        "description": "Kale originated in the eastern Mediterranean and Anatolia, where it was cultivated for food beginning by 2000 BCE at the latest.[3] Curly-leaved varieties of cabbage already existed along with flat-leaved varieties in Greece in the 4th century BC. These forms, which were referred to by the Romans as Sabellian kale, are considered to be the ancestors of modern kales."
     },
     {
         "id": "2",
         "name": "flower kale",
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_euvv6BIh6OtsKGP9A6X38J1eU5xWhPp3Gg-RVUqc6ndyJBHGAS6TziYSuOnuXDQ0hAM&usqp=CAU",
         "price": "4",
-        "weight": "1kg",
-        "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+        "weight": "1",
+        "description": "Flowering kale is right at home in garden-bed plantings, too. Use it as a statement plant near entryways or patios. This frilly, colorful plant will amplify interest in early- and late-season gardens when perennials are slow to emerge in spring, and annuals and perennials are languishing at the end of the growing season in fall. Flowering kale grows slowly, so purchase large plants if you plan to enjoy them for just a few weeks in spring or fall."
     },
     {
         "id": "3",
         "name": "Potato",
         "picture": "https://thumbs.dreamstime.com/b/potatoes-fresh-wooden-basket-33186647.jpg",
         "price": "16",
-        "weight": "3kg",
-        "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+        "weight": "3",
+        "description": "Potatoes are thought to have been independently domesticated several times and were largely cultivated in South America by the Incas as early as 1,800 years ago. Encountered by the invading Spaniards, potatoes were introduced into Europe during the second half of the 16th century. By the end of the 17th century the plant was a major crop in Ireland, and by the end of the 18th century it was a major crop in continental Europe, particularly Germany, and in the west of England."
     },
     {
         "id": "4",
         "name": "banana",
         "picture": "https://media.istockphoto.com/id/172876004/photo/banana-wallpaper.jpg?s=612x612&w=0&k=20&c=DjUIq77Fh3ljde_WJNwYl17e86VxMUpOwYiVL2XJo9U=",
         "price": "13",
-        "weight": "6.3kg",
-        "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+        "weight": "6.3",
+        "description": "The banana plant is the largest herbaceous flowering plant.[8] All the above-ground parts of a banana plant grow from a structure usually called.[9] Plants are normally tall and fairly sturdy with a treelike appearance, but what appears to be a trunk is actually a or pseudostem. Bananas grow in a wide variety of soils, as long as the soil is at least 60 centimetres (2.0 ft) deep, has good drainage and is not compacted.[10] Banana plants are among the fastest growing of all plants, with daily growth rates recorded of 1.4 metres (4.6 ft) to 1.6 metres (5.2 ft)"
     },
     {
         "id": "5",
         "name": "pineapple",
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6BVLECFYFSJe6Bf01STPc_Q8P0ia-Xc8Mk8H2DCvR&s",
-        "price": "",
-        "weight": "3kg",
-        "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+        "price": "25",
+        "weight": "2",
+        "description": "Pineapples are one of the most popular tropical fruits in the world.Fresh pineapple is low in calories. Nonetheless, it is a storehouse for several unique health promoting compounds, minerals and vitamins that are essential for optimum health. Fresh pineapples contain 50 calories per 100 grams, which amounts to only 83 calories per cup (165 grams). They consist of water (86%) and carbs (13%), with almost no protein or fat."
     },
     {
         "id": "6",
         "name": "sweet calabash",
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8vnGakK3w8RfBy4TAtxz68co184n8rPSN3ccz_FW41iy3-zK5o7WJwqla3b_edmYglDU&usqp=CAU",
-        "price": "",
-        "weight": "3kg",
-        "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+        "price": "47",
+        "weight": "1",
+        "description": "The passion flower blossom varies in form from a shallow saucer shape to a long cylindrical or trumpet-shaped tube, producing at its upper border five sepals, five petals, and many threadlike or membranous outgrowths from the tube, which constitute the most conspicuous and beautiful part of the flower, called the corona. From the base of the inner part of the tube rises a stalk bearing above the middle a ring of five stamens (the male pollen-producing structures). Above the stamens is the female structure, or ovary, at the top of which arise three widely spreading styles."
     },
     {
         "id": "7",
         "name": "family pack",
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYgK3L6K64ETaXoNWYfHYP9jyi4tVUG3MVEg&usqp=CAU",
-        "price": "",
-        "weight": "3kg",
-        "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+        "price": "167",
+        "weight": "8",
+        "description": "Health, flavour and convenience are all factors that drive the consumption of fresh fruit and vegetables in Europe. At the same time, social standards and certifications are needed for better information sharing and transparency. Consumer behaviour has grown complex, while professional buyers are becoming more demanding due to the concentration of buyer power. The fresh sector requires you to be an expert in your field and integrate into a well-organised supply chain."
     },
     {
         "id": "8",
         "name": "Mooli",
         "picture": "https://smedia2.intoday.in/indiatoday/images/stories/2017December/mooli1-mos_122717043745.jpg",
-        "price": "",
-        "weight": "3kg",
-        "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+        "price": "9",
+        "weight": "3",
+        "description": "Mooli ki sabji is an easy, quick and special Punjabi recipe made with white radish or daikon as the star ingredient. Of course, there are so many ways a mooli sabji is made. But my recipe has minimal ingredients and is not overloaded with spices, which lets the flavors of radish shine through in the dish. This is a quick and easy radish recipe comes together in 20 minutes. Besides chopping radish and green chilies, you do not need to chop anything else. A vegan dish."
     },
     {
         "id": "9",
         "name": "carrot",
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl9nCndBVK6PtsDwsMJYZNCX6xLY8Bmb3ekHwfYGxN9jPUEmiyqX2ZGcIOkFkROtsbFYs&usqp=CAU",
-        "price": "",
-        "weight": "3kg",
-        "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+        "price": "24",
+        "weight": "4",
+        "description": "Raw carrots are so powerful that they can benefit women in a variety of ways. There are many advantages to consuming raw vegetables as opposed to cooked ones. You receive the greatest amount of enzymes, vitamins, and minerals necessary for optimal health. Many individuals enjoy eating raw vegetables, but feel that doing so could expose them to worms or other poisons makes many of them fearful and hesitant to do so. In reality, if you eat your vegetables raw, you can get a variety of health benefits. Consuming raw veggies also reduces the time required for food preparation. A vegetable with several uses is the carrot. They are available for consumption raw, steamed, cooked, roasted, or as a component of soups and stews. Vitamin content in vegetables can be diminished or removed when they are boiled. Carrots are best consumed raw or steamed."
     }
 ]
