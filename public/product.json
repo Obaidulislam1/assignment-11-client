@@ -1,0 +1,65 @@
+[
+    {
+      "name": "Kale",
+      "picture": "https://ibb.co/vzpjxXx",
+      "price": "2.5",
+      "weight": "3kg",
+      "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+    },
+    {
+      "name": "flower kale",
+      "picture": "https://ibb.co/r2DwCXF",
+      "price": "4",
+      "weight": "1kg",
+      "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+    },
+    {
+      "name": "Potato",
+      "picture": "https://ibb.co/hcWjrNv",
+      "price": "16",
+      "weight": "3kg",
+      "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+    },
+    {
+      "name": "banana",
+      "picture": "https://ibb.co/3Rfy3mz",
+      "price": "13",
+      "weight": "6.3kg",
+      "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+    },
+    {
+      "name": "pineapple",
+      "picture": "https://ibb.co/Mn09kTJ",
+      "price": "",
+      "weight": "3kg",
+      "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+    },
+    {
+      "name": "sweet calabash",
+      "picture": "https://ibb.co/r0sHfFx",
+      "price": "",
+      "weight": "3kg",
+      "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+    },
+    {
+      "name": "family pack",
+      "picture": "https://ibb.co/PYSKp1N",
+      "price": "",
+      "weight": "3kg",
+      "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+    },
+    {
+      "name": "Mooli",
+      "picture": "https://ibb.co/jk3Ts7M",
+      "price": "",
+      "weight": "3kg",
+      "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+    },
+    {
+      "name": "carrot",
+      "picture": "https://ibb.co/W64K8xJ",
+      "price": "",
+      "weight": "3kg",
+      "description": "lorem1 shjs d f  f h sdgdsgh try rewtyyyh tyrtyu"
+    }
+  ]
