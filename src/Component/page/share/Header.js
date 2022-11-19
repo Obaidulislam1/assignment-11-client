@@ -23,7 +23,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end mr-6">
-                <Link><button>Log in</button></Link>
+                <Link><button>hellow</button></Link>
             </div>
         </div>
     );

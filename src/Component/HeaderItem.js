@@ -5,7 +5,7 @@ const HeaderItem = () => {
     return (
         <>
             <li><Link to='/'>Home</Link></li>
-            <li><Link>Login</Link></li>
+            <li><Link to='/login'>Login</Link></li>
             <li><Link>Item 3</Link></li>
         </>
     );
