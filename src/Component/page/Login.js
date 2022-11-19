@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
 
-    const handleClick = event =>{
+    const handleClick = event => {
         event.preventDefault()
         const form = event.target;
-        const email =form.email.value;
+        const email = form.email.value;
         const password = form.password.value;
-        console.log(email,password);
+        console.log(email, password);
     }
     return (
         <div className="hero mt-5 mb-5">
@@ -35,9 +36,10 @@ const Login = () => {
                             </label>
                         </div>
                         <div className="form-control mt-6">
-                            <input type="submit" value="Login" className="btn btn-primary"/>
+                            <input type="submit" value="Login" className="btn btn-primary" />
                         </div>
                     </div>
+                    <p className='text-center mb-7'>Have an account? <Link to='/register'>Sign In</Link></p>
                 </form>
 
             </div>
