@@ -4,16 +4,43 @@ import { AuthContext } from '../../AuthProvider/AuthProvider';
 
 const ServiceReview = () => {
     const { user } = useContext(AuthContext)
-    const { name } = useLoaderData();
+    const {_id,name} = useLoaderData();
+
+const handleReview = event =>{
+    event.preventDefault();
+    const form = event.target;
+    const email = user?.email || 'unregistered';
+    const review = form.review.value;
+
+const userReview ={
+    id: _id,
+    name,
+    email,
+    review,
+}
+fetch('http://localhost:5000/review', {
+    method: 'POST',
+    headers:{
+        'content-type': 'application/json'
+    },
+    body: JSON.stringify(userReview)
+})
+.then(res =>res.json())
+.then(data => {
+    console.log(data)
+})
+.catch(err => console.error(err));
+}
 
     return (
         <div className='flex items-center w-full mt-5 mb-10'>
-            <form className='mx-auto w-3/4'>
-                <textarea className="textarea w-full textarea-primary" placeholder="Review"></textarea>
+            <form onSubmit={handleReview} className='mx-auto w-3/4'>
+                <textarea name="review" className="textarea w-full textarea-primary" placeholder="Review"></textarea>
                 <div className='flex justify-center mt-5'>
-                    <input className="btn btn-success" type="submit" value="Submit" />
+                    <input  className="btn btn-success" type="submit" value="Submit" />
                 </div>
             </form>
+
         </div>
     );
 };
