@@ -22,6 +22,7 @@ const signIn = (email,password) =>{
    const unsubscribe = onAuthStateChanged(auth, currentUser =>{
      console.log(currentUser)  
      setUser(currentUser) 
+     setLoading(false)
     })
     return () =>{
         unsubscribe();

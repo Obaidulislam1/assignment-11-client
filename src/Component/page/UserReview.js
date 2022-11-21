@@ -24,7 +24,7 @@ const UserReview = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {
+                {
                         reviews.map(review => <UserReviewCard
                             key={review._id}
                             review={review}
