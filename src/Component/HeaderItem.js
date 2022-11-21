@@ -16,7 +16,6 @@ const HeaderItem = () => {
                 :
                 <li><Link to='/login'>Login</Link></li>
             }
-            
         </>
     );
 };
