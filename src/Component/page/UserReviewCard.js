@@ -18,7 +18,7 @@ const UserReviewCard = ({ review }) => {
     return (
         <>
             <tr>
-                <th><button onClick={handleDelete} className='btn btn-ghost'>x</button></th>
+                <th><button onClick={() =>handleDelete(_id)} className='btn btn-ghost'>x</button></th>
                 <td>{email}</td>
                 <td>{name}</td>
                 <td>{review.review}</td>
