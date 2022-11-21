@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { useLoaderData } from 'react-router-dom';
+import { AuthContext } from '../../AuthProvider/AuthProvider';
 
 const ServiceReview = () => {
+    const { user } = useContext(AuthContext)
+    const { name } = useLoaderData();
+
     return (
         <div className='flex items-center w-full mt-5 mb-10'>
             <form className='mx-auto w-3/4'>
