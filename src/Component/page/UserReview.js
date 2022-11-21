@@ -17,17 +17,17 @@ const UserReview = () => {
             <table className="table w-full">
                 <thead>
                     <tr>
-                        <th></th>
+                        <th>Delete</th>
                         <th>Gmail</th>
                         <th>Item</th>
                         <th>Review</th>
                     </tr>
                 </thead>
                 <tbody>
-                {
+                    {
                         reviews.map(review => <UserReviewCard
-                        key={review._id}
-                        review={review}
+                            key={review._id}
+                            review={review}
                         ></UserReviewCard>)
                     }
                 </tbody>
