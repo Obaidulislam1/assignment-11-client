@@ -4,6 +4,7 @@ import Allvegetables from "../page/Allvegetables";
 import Home from "../page/home/Home";
 import Login from "../page/Login";
 import Register from "../page/Register";
+import ServiceReview from "../page/ServiceReview";
 
 const router = createBrowserRouter([
     {
@@ -25,7 +26,11 @@ const router = createBrowserRouter([
             {
                 path: '/allvegetables',
                 element: <Allvegetables></Allvegetables>
-            }
+            },
+            {
+                path: '/serviceReview/:id',
+                element: <ServiceReview></ServiceReview>
+            },
         ]
     },
 ])
