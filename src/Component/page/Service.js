@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import ServiceCard from './ServiceCard';
 
 const Service = () => {
@@ -21,6 +22,9 @@ const Service = () => {
                 service={service}
                 ></ServiceCard>)
                }
+            </div>
+            <div className='flex justify-center items-center m-5'>
+                <button className='btn btn-success'><Link to='/allvegetables'>All Vegetables</Link></button>
             </div>
         </div>
     );
