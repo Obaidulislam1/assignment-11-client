@@ -28,6 +28,10 @@ fetch('http://localhost:5000/review', {
 .then(res =>res.json())
 .then(data => {
     console.log(data)
+    if(data.acknowledged){
+        alert('review successfully submit');
+        form.reset()
+    }
 })
 .catch(err => console.error(err));
 }

@@ -5,6 +5,7 @@ import Home from "../page/home/Home";
 import Login from "../page/Login";
 import Register from "../page/Register";
 import ServiceReview from "../page/ServiceReview";
+import UserReview from "../page/UserReview";
 
 const router = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
                 element: <ServiceReview></ServiceReview>,
                 loader: ({params}) => fetch(`http://localhost:5000/vegetables/${params.id}`)
             },
+            {
+                path: 'userReview',
+                element: <UserReview></UserReview>
+            }
         ]
     },
 ])
