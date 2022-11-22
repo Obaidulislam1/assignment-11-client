@@ -3,14 +3,22 @@ import { Link } from 'react-router-dom';
 import { AuthContext } from '../AuthProvider/AuthProvider';
 
 const HeaderItem = () => {
-    const { user } = useContext(AuthContext)
+    const { user,logOut } = useContext(AuthContext)
+    const handlelogOut = () =>{
+        logOut()
+        .then(result =>{
+            const user = result.user;
+            console.log(user);
+        })
+        .catch(err => console.log(err))
+    }
     return (
         <>
             <li><Link to='/'>Home</Link></li>
             {
                 user?.email ?
                 <>
-                <li><Link>Log Out</Link></li>
+                <li onClick={handlelogOut}><Link>Log Out</Link></li>
                 <li><Link to='/userReview'>Review</Link></li>
                 </>
                 :

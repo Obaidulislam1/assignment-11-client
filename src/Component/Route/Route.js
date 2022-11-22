@@ -3,6 +3,7 @@ import Main from "../layout/Main";
 import Allvegetables from "../page/Allvegetables";
 import Home from "../page/home/Home";
 import Login from "../page/Login";
+import PrivateRoute from "../page/PrivateRoute";
 import Register from "../page/Register";
 import ServiceReview from "../page/ServiceReview";
 import UserReview from "../page/UserReview";
@@ -35,7 +36,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/userReview',
-                element: <UserReview></UserReview>
+                element:<PrivateRoute> <UserReview></UserReview></PrivateRoute>
             }
         ]
     },

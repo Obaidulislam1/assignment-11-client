@@ -48,7 +48,7 @@ const Review = () => {
                         <p className='text-center'>Typeform allowed us to get to the core of what our product should be—what features to focus on, and where people are struggling.</p>
                     </div>
                 </div>
-                <div className="card w-full glass mx-auto p-5">
+                 <div className="card w-full glass mx-auto p-5">
 
                     <div className='avatar flex items-center'>
                         <div className='w-20 h-20 rounded-full avatar ml-3 mt-5'>
