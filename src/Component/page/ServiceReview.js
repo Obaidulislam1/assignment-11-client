@@ -30,7 +30,7 @@ fetch('http://localhost:5000/review', {
     console.log(data)
     if(data.acknowledged){
         alert('review successfully submit');
-        form.reset()
+        form.reset();
     }
 })
 .catch(err => console.error(err));

@@ -3,8 +3,8 @@ import { AuthContext } from '../../AuthProvider/AuthProvider';
 import UserReviewCard from './UserReviewCard';
 
 const UserReview = () => {
-    const [reviews, setReview] = useState({});
-    const { user } = useContext(AuthContext)
+    const [reviews, setReview] = useState([]);
+    const {user} = useContext(AuthContext)
 
     useEffect(() => {
         fetch(`http://localhost:5000/review?email=${user?.email}`)
@@ -21,6 +21,11 @@ const UserReview = () => {
                 .then(res => res.json())
                 .then(data => {
                     console.log(data)
+                    if(data.deletedCount > 0){
+                     alert('deleted successfully')
+                     const remaining = reviews.filter(review => review._id !== id)
+                     setReview(remaining)
+                    }
                 })
         }
     }
@@ -37,6 +42,7 @@ const UserReview = () => {
                     </tr>
                 </thead>
                 <tbody>
+
                     {
                         reviews.map(review => <UserReviewCard
                             key={review._id}

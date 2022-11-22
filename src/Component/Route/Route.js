@@ -1,4 +1,6 @@
+import { useContext } from "react";
 import { createBrowserRouter } from "react-router-dom";
+import { AuthContext } from "../../AuthProvider/AuthProvider";
 import Main from "../layout/Main";
 import Allvegetables from "../page/Allvegetables";
 import Home from "../page/home/Home";
@@ -8,11 +10,12 @@ import Register from "../page/Register";
 import ServiceReview from "../page/ServiceReview";
 import UserReview from "../page/UserReview";
 
+
 const router = createBrowserRouter([
     {
         path: '/',
         element: <Main></Main>,
-        children:[
+        children: [
             {
                 path: '/',
                 element: <Home></Home>
@@ -32,11 +35,11 @@ const router = createBrowserRouter([
             {
                 path: '/serviceReview/:id',
                 element: <ServiceReview></ServiceReview>,
-                loader: ({params}) => fetch(`http://localhost:5000/vegetables/${params.id}`)
+                loader: ({ params }) => fetch(`http://localhost:5000/vegetables/${params.id}`)
             },
             {
                 path: '/userReview',
-                element:<PrivateRoute> <UserReview></UserReview></PrivateRoute>
+                element: <PrivateRoute><UserReview></UserReview></PrivateRoute>,
             }
         ]
     },
