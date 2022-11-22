@@ -1,8 +1,7 @@
-import { useContext } from "react";
 import { createBrowserRouter } from "react-router-dom";
-import { AuthContext } from "../../AuthProvider/AuthProvider";
 import Main from "../layout/Main";
 import Allvegetables from "../page/Allvegetables";
+import Blog from "../page/Blog";
 import Home from "../page/home/Home";
 import Login from "../page/Login";
 import PrivateRoute from "../page/PrivateRoute";
@@ -46,6 +45,10 @@ const router = createBrowserRouter([
                 path: '/review/:id',
                 element: <Update></Update>,
                 loader: ({params}) =>fetch(`http://localhost:5000/review/${params.id}`)
+            },
+            {
+              path: '/blog',
+              element: <Blog></Blog>
             }
         ]
     },
