@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
 
 const UserReviewCard = ({ review,handleDelete }) => {
     const { _id, email, name } = review;
@@ -8,6 +9,7 @@ const UserReviewCard = ({ review,handleDelete }) => {
                 <td>{email}</td>
                 <td>{name}</td>
                 <td>{review.review}</td>
+                <td><Link to={`/review/${_id}`}><button className='btn btn-ghost'>Update</button></Link></td> 
             </tr>
     );  
 };

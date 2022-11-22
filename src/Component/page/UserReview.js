@@ -39,6 +39,7 @@ const UserReview = () => {
                         <th>Gmail</th>
                         <th>Item</th>
                         <th>Review</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
