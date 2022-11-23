@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../layout/Main";
 import Allvegetables from "../page/Allvegetables";
 import Blog from "../page/Blog";
+import Errorpage from "../page/Errorpage";
 import Home from "../page/home/Home";
 import Login from "../page/Login";
 import PrivateRoute from "../page/PrivateRoute";
@@ -35,7 +36,7 @@ const router = createBrowserRouter([
             {
                 path: '/serviceReview/:id',
                 element: <ServiceReview></ServiceReview>,
-                loader: ({ params }) => fetch(`http://localhost:5000/vegetables/${params.id}`)
+                loader: ({ params }) => fetch(`https://assignment-11-server-psi.vercel.app/vegetables/${params.id}`)
             },
             {
                 path: '/userReview',
@@ -44,11 +45,15 @@ const router = createBrowserRouter([
             {
                 path: '/review/:id',
                 element: <Update></Update>,
-                loader: ({params}) =>fetch(`http://localhost:5000/review/${params.id}`)
+                loader: ({ params }) => fetch(`https://assignment-11-server-psi.vercel.app/review/${params.id}`)
             },
             {
-              path: '/blog',
-              element: <Blog></Blog>
+                path: '/blog',
+                element: <Blog></Blog>
+            },
+            {
+                path: '*',
+                element: <Errorpage></Errorpage>
             }
         ]
     },

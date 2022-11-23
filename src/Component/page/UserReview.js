@@ -7,7 +7,7 @@ const UserReview = () => {
     const {user} = useContext(AuthContext)
 
     useEffect(() => {
-        fetch(`http://localhost:5000/review?email=${user?.email}`)
+        fetch(`https://assignment-11-server-psi.vercel.app/review?email=${user?.email}`)
             .then(res => res.json())
             .then(data => setReview(data))
     }, [user?.email])
@@ -15,7 +15,7 @@ const UserReview = () => {
     const handleDelete = id => {
         const proceed = window.confirm('are you sure you want to cancel this order')
         if (proceed) {
-            fetch(`http://localhost:5000/review/${id}`, {
+            fetch(`https://assignment-11-server-psi.vercel.app/review/${id}`, {
                 method: 'DELETE',
             })
                 .then(res => res.json())

@@ -18,7 +18,7 @@ const userReview ={
     email,
     review,
 }
-fetch('http://localhost:5000/review', {
+fetch('https://assignment-11-server-psi.vercel.app/review', {
     method: 'POST',
     headers:{
         'content-type': 'application/json'

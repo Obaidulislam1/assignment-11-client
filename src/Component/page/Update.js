@@ -9,7 +9,7 @@ const Update = () => {
     const handleUpdate = event => {
         event.preventDefault()
         console.log(review);
-        fetch(`http://localhost:5000/review/${userReview._id}`,{
+        fetch(`https://assignment-11-server-psi.vercel.app/review/${userReview._id}`,{
          method: 'PUT',
          headers:{
             'content-type': 'application/json'

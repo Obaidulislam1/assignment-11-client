@@ -4,7 +4,7 @@ import AllvegetableCard from './AllvegetableCard';
 const Allvegetables = () => {
     const [vegetables,setVegetable] = useState([]);
     useEffect( () =>{
-       fetch('http://localhost:5000/vegetables') 
+       fetch('https://assignment-11-server-psi.vercel.app/vegetables') 
        .then(res => res.json())
        .then(data => setVegetable(data))
     },[])
