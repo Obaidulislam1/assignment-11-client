@@ -22,9 +22,6 @@ const Header = () => {
                     <HeaderItem></HeaderItem>
                 </ul>
             </div>
-            <div className="navbar-end mr-6">
-                <Link><button>hellow</button></Link>
-            </div>
         </div>
     );
 };
